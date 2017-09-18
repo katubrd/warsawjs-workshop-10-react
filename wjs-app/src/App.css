@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Transaction-card,
+.Category-card {
+  width: 600px;
+  border: 2px solid #000;
+  padding: 10px;
+  position: relative;
+}
+
+.Transaction-card h1 {
+  margin-top: 0;
+}
+
+.Transaction-card__Remove,
+.Category-card__Remove {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  font-size: 22px;
+  color: red;
+  cursor: pointer;
+}
+
+.Transaction-form {
+  padding: 10px 0;
+}
+
+.Transaction-form * + * {
+  margin-left: 10px;
+}
+
+.Category-card {
+  border-color: red;
+}
+
+.Category-card h2 span {
+  border-radius: 3px;
+  padding: 3px 5px;
+  border: 3px solid transparent;
+}
+
+.Category-card h2 span:hover {
+  border: 3px solid #CEE5FE;
+}
+
+.Category-card input {
+  font-size: 20px;
+  width: 150px;
+  margin: 0 10px;
+}
